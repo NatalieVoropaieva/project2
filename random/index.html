@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Randomize</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800'
+          rel='stylesheet' type='text/css'>
+</head>
+<body>
+<h1>Randomizer</h1>
+<div class="randomize-field" >
+    <form action="" name='form' class="form" onsubmit="randomNum(event)">
+        <div class="error" id="error"></div>
+        <p>MINIMUM NUMBER:</p>
+        <input type="text" value="1" name="minimum" class="num" id='min' min="1">
+        <p>MAXIMUM NUMBER:</p>
+        <input type="text" value="100" name="maximum" class="num" id='max' min="1">
+        <button type="submit" class="btn">Generate</button>
+    </form>
+    <div class="num-output" ></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

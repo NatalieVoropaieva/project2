@@ -1,0 +1,118 @@
+.game-container{
+    background-color: darkblue;
+    border: #f6f675 solid 5px;
+    border-radius: 20px;
+    max-width: 1300px;
+    min-height: 600px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Montserrat, sans-serif;
+    user-select: none;
+}
+.game-field{
+    max-width: 900px;
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.question-field{
+    background-color: midnightblue;
+    color: white;
+    border: #f6f675 solid 5px;
+    border-radius: 20px;
+    max-width: 800px;
+    width: 90%;
+    height: 150px;
+    padding: 30px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.question-field .save{
+    align-self: center;
+    justify-self: center;
+}
+.hints {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+.hint50, .hint-call{
+    background-color: midnightblue;
+    border: #f6f675 solid 3px;
+    border-radius: 50%;
+    width: 50px;
+    padding: 10px 10px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 10px;
+}
+.hint50:hover, .hint-call:hover{
+    opacity: 0.8;
+}
+.hint-call{
+    object-fit: contain;
+}
+.answer-field{
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.answer{
+    background-color: midnightblue;
+    color: white;
+    border: #f6f675 solid 4px;
+    border-radius: 10px;
+    max-width: 300px;
+    width: 90%;
+    min-height: 60px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 20px;
+    font-size: 18px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.answer:hover{
+    opacity: 0.8;
+}
+.prize-container{
+    background-color: midnightblue;
+    color: #f6f675;
+    border: #f6f675 solid 5px;
+    border-radius: 15px;
+    max-width: 300px;
+    width: 100%;
+    height: 90%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-self: center;
+}
+.prize-container div{
+    margin: 0 50px;
+}
+.save{
+    color: #944949;
+ }
+.isActive{
+    color: lightcoral;
+}
+
+.disabled, .disabled:hover{
+    opacity: 0.4;
+    cursor: default;
+}
